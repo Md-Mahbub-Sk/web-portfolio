@@ -163,36 +163,46 @@
 
     }
 
-    
-    .margin-for{
-        margin-top:23%;
+    .top-banner-again{
+        height:860px;
     }
-     #full-stack-card{
-         width:83%;
-         height:300px;
-         margin-bottom:20px;
-     }
-     #Begginer-card{
-         width:83%;
-         height:300px;
-     }
-     #experience-area{
-         height:800px;
-     }
-     #experience-area-outside{
-         height:900px;
-     }
-     #composer{
-         width:83%;
-         height:380px;
-         margin-bottom:20px;
-
-     }
-     #Photographer{
-         width:83%;
-         height:320px;
-
-     }
+    .dream-area{
+        height:620px;
+        padding-top:0;
+    }
+    .margin-for{
+        margin-top:380px;
+    }
+    .margin-for-second{
+        margin-top:400px;
+    }
+    
+    #full-stack-card{
+        width:83%;
+        height:500px;
+        margin-bottom:20px;
+    }
+    #Begginer-card{
+        width:83%;
+        height:500px;
+    }
+    #experience-area{
+        height:1200px;
+    }
+    #experience-area-outside{
+        height:1400px;
+    }
+    #composer{
+        width:83%;
+        height:550px;
+        margin-bottom:20px;
+    
+    }
+    #Photographer{
+        width:83%;
+        height:520px;
+    
+    }
 }
 
 
@@ -200,14 +210,31 @@
 
 
 @media screen and (max-width:480px){
-	.margin-for{
-        margin-top:50%;
+	.span{
+        font-size:30px;
     }
-    
-section{
-    height: 750px;
-}
-
+    .top-banner-again{
+        height:860px;
+    }
+    .dream-area{
+        height:755px;
+        padding-top:0;
+    }
+    .margin-for{
+        margin-top:380px;
+    }
+    .margin-for-second{
+        margin-top:400px;
+    }
+    .link-button{
+        text-decoration:none;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
+        padding:10px 20px;
+        border-radius: 10px;
+        color:white;
+        font-size:12px;
+        font-weight: bold;
+    }
 #full-stack-card{
     width:83%;
     height:500px;
@@ -221,7 +248,7 @@ section{
     height:1200px;
 }
 #experience-area-outside{
-    height:1250px;
+    height:1400px;
 }
 #composer{
     width:83%;
