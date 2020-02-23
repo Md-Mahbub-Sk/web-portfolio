@@ -1,0 +1,94 @@
+@media screen and (max-width:980px){
+    .single-experience{
+        box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+        height: 75%;
+        padding-top:0;
+        padding:20px;
+        border-radius:2%;
+    }
+}
+@media screen and (max-width:768px){
+    
+    .half-width{
+        width:40%;
+        float:left;
+        padding-left:2%;
+        margin-left:5%;
+        
+        
+    }
+
+    .span{
+        
+        font-size:40px;
+    }
+    .margin-for{
+        margin-top:23%;
+    }
+     #full-stack-card{
+         width:83%;
+         height:300px;
+         margin-bottom:20px;
+     }
+     #Begginer-card{
+         width:83%;
+         height:300px;
+     }
+     #experience-area{
+         height:800px;
+     }
+     #experience-area-outside{
+         height:900px;
+     }
+     #composer{
+         width:83%;
+         height:380px;
+         margin-bottom:20px;
+
+     }
+     #Photographer{
+         width:83%;
+         height:320px;
+
+     }
+}
+@media screen and (max-width:480px){
+    .margin-for{
+        margin-top:50%;
+    }
+}
+section{
+    height: 750px;
+}
+.span{
+        
+    font-size:30px;
+}
+#full-stack-card{
+    width:83%;
+    height:500px;
+    margin-bottom:20px;
+}
+#Begginer-card{
+    width:83%;
+    height:500px;
+}
+#experience-area{
+    height:1200px;
+}
+#experience-area-outside{
+    height:1250px;
+}
+#composer{
+    width:83%;
+    height:550px;
+    margin-bottom:20px;
+
+}
+#Photographer{
+    width:83%;
+    height:520px;
+
+}
+
+}
