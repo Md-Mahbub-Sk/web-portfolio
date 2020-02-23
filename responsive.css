@@ -5,45 +5,153 @@
         padding-top:0;
         padding:20px;
         border-radius:2%;
+    }body{
+        font-family:'Cardo';
+        margin:0;
+        padding:0;
+    }
+    h1{
+        font-size:50px;
+        font-family: 'Lobster Two' ;
+    }
+    h3{
+        font-family:'Cardo' ;
+        font-size:25px;
+    }
+    .cyan-highlight{
+        color:rgba(12, 154, 248, 0.616);
+    }
+    section{
+        height:615px;
+        overflow: hidden;
+        
+    }
+    .half-width{
+        width:40%;
+        float:left;
+        padding-left:2%;
+        margin-left:5%;
+        
+        
+    }
+    .half-width p{
+        text-align:justify;
+        font-size:22px;
+    }
+    .big-I{
+        font-size:50px;
+        color:tomato;
+    }
+    .big-i{
+        font-size:50px;
+        color:cyan;
+    }
+    .half-width img{
+        width:100%;
+    }
+    .top-banner{
+        
+       
+        background-image:url("images/top-banner.png");
+        background-repeat:no-repeat;
+    }
+    .link-button{
+        text-decoration:none;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
+        padding:10px 20px;
+        border-radius: 10px;
+        color:white;
+        font-weight: bold;
+    }
+    .dream-area{
+        background-image:url("images/dream-bg.png");
+        background-repeat:no-repeat;
+        background-position:right;
+        padding-top: 100px;
+        
+    }
+    .experience-area{
+        padding-bottom: 75px;
+        background-image: url("images/exp-bg.png");
+        background-repeat:no-repeat;
+        background-position:left;
+        
+    }
+    .Outside{
+        background-image:url("images/dream-bg.png");
+        background-repeat:no-repeat;
+        background-position:right;
+    }
+    .single-experience{
+        box-shadow: 5px 5px 25px gray,-5px -5px 25px gray;
+        height: 65%;
+        padding-top:0;
+        padding:20px;
+        border-radius:2%;
+    }
+    #full-stack-card{
+        border-left:5px solid;
+        border-image:linear-gradient(lightsalmon,tomato);
+        border-image-slice:1;
+        
+    }
+    #Begginer-card{
+        border-left:5px solid;
+        border-image:linear-gradient(blue,cyan);
+        border-image-slice:1;
+    }
+    #composer{
+        border-left:5px solid;
+        border-image:linear-gradient(blue,cyan);
+        border-image-slice:1;
+    }
+    #Photographer{
+        border-left:5px solid;
+        border-image:linear-gradient(lightsalmon,tomato);
+        border-image-slice:1;
+    }
+    footer p{
+        text-align:center;
     }
     
 }
+
 @media screen and (max-width:480px){
     .margin-for{
         margin-top:50%;
+    }section{
+        height: 750px;
+    }
+    
+    #full-stack-card{
+        width:83%;
+        height:500px;
+        margin-bottom:20px;
+    }
+    #Begginer-card{
+        width:83%;
+        height:500px;
+    }
+    #experience-area{
+        height:1200px;
+    }
+    #experience-area-outside{
+        height:1250px;
+    }
+    #composer{
+        width:83%;
+        height:550px;
+        margin-bottom:20px;
+    
+    }
+    #Photographer{
+        width:83%;
+        height:520px;
+    
     }
 }
-section{
-    height: 750px;
-}
 
-#full-stack-card{
-    width:83%;
-    height:500px;
-    margin-bottom:20px;
-}
-#Begginer-card{
-    width:83%;
-    height:500px;
-}
-#experience-area{
-    height:1200px;
-}
-#experience-area-outside{
-    height:1250px;
-}
-#composer{
-    width:83%;
-    height:550px;
-    margin-bottom:20px;
 
-}
-#Photographer{
-    width:83%;
-    height:520px;
-
-}
-}
 @media screen and (max-width:768px){
     
     .half-width{
@@ -85,6 +193,11 @@ section{
 
      }
 }
+
+
+
+
+
 @media screen and (max-width:480px){
 	.margin-for{
         margin-top:50%;
