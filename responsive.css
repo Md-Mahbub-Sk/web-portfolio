@@ -6,6 +6,43 @@
         padding:20px;
         border-radius:2%;
     }
+    
+}
+@media screen and (max-width:480px){
+    .margin-for{
+        margin-top:50%;
+    }
+}
+section{
+    height: 750px;
+}
+
+#full-stack-card{
+    width:83%;
+    height:500px;
+    margin-bottom:20px;
+}
+#Begginer-card{
+    width:83%;
+    height:500px;
+}
+#experience-area{
+    height:1200px;
+}
+#experience-area-outside{
+    height:1250px;
+}
+#composer{
+    width:83%;
+    height:550px;
+    margin-bottom:20px;
+
+}
+#Photographer{
+    width:83%;
+    height:520px;
+
+}
 }
 @media screen and (max-width:768px){
     
@@ -49,10 +86,10 @@
      }
 }
 @media screen and (max-width:480px){
-    .margin-for{
+	.margin-for{
         margin-top:50%;
     }
-}
+    
 section{
     height: 750px;
 }
@@ -83,5 +120,6 @@ section{
     height:520px;
 
 }
-
 }
+
+    
