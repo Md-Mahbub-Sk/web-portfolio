@@ -60,6 +60,7 @@ section{
 }
 .link-button:hover{
     box-shadow: 0 0 5px lightsalmon, 0 0 25px tomato, 0 0 50px tomato;
+    -webkit-box-shadow: 0 0 5px lightsalmon, 0 0 25px tomato, 0 0 50px tomato;
     transition:.30s;
 }
 .dream-area{
@@ -90,6 +91,7 @@ section{
 }
 .single-experience:hover{
     box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange;
+    -webkit-box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange;
     transition:.25s;
 }
 
