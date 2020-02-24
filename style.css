@@ -58,6 +58,10 @@ section{
     color:white;
     font-weight: bold;
 }
+.link-button:hover{
+    box-shadow: 0 0 5px lightsalmon, 0 0 25px tomato, 0 0 50px tomato;
+    transition:.30s;
+}
 .dream-area{
     background-image:url("images/dream-bg.png");
     background-repeat:no-repeat;
@@ -84,6 +88,11 @@ section{
     padding:20px;
     border-radius:2%;
 }
+.single-experience:hover{
+    box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange;
+    transition:.25s;
+}
+
 #full-stack-card{
     border-left:5px solid;
     border-image:linear-gradient(lightsalmon,tomato);
